@@ -75,8 +75,7 @@ Includes:
  * [Shucking drives](https://old.reddit.com/r/DataHoarder/comments/7fx0i0/wd_easystore_8tb_compendium/) (last updated 2018, but has still relevant info/links)
 5. User submissions
  * Links to threads of builds/guides posted in /r/DataHoarder
- * [Organizing old BR backups]
-(https://www.reddit.com/r/DataHoarder/comments/d22xin/found_300_bluray_disks_i_filled_years_ago_decided/)
+ * [Organizing old BR backups](https://www.reddit.com/r/DataHoarder/comments/d22xin/found_300_bluray_disks_i_filled_years_ago_decided/)
  * How to test purchased drives
         * [/u/EchoGecko795's method (SMART long test, badblocks, format to zfs, f3write, zfs scrub)](https://www.reddit.com/r/DataHoarder/comments/d1ky6y/what_are_the_cheapest_best_beginner_nas_drives/ezu321c/)
         * [/u/Joe_Pineapples' method (SMART long test, badblocks) ](https://www.reddit.com/r/DataHoarder/comments/5et35o/what_tool_do_you_use_to_test_your_new_hard_drives/daezep5/)
