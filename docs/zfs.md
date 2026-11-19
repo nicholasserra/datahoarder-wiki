@@ -1,4 +1,4 @@
-# ZFS#
+# ZFS
 
 ## Why should I use it?
 *****
@@ -34,7 +34,7 @@ Subjective (author isn't 100% sure) advantages:
 ### Terminology
 I don't understand X - [READ THIS](http://nex7.blogspot.co.uk/2013/03/readme1st.html).
 
-## Installation##
+## Installation
 *****
 ### Out of box solutions
 

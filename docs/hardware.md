@@ -62,14 +62,14 @@ mini-ITX motherboard
 [Supermicro 24 bay Chassis](https://www.supermicro.com/products/chassis/4u/?chs=846)
 
 | Chassis Model   | Backplane Model | Expander | Backplane Connector | >2TB Drives | Bandwidth | Power Supply  | Redundant | In Production |
-|-----------------|-----------------|----------|---------------------|-------------|-----------|---------------|-----------|---------------|------------------------------------------------------------------------------------------------------------------------|
+|-----------------|-----------------|----------|---------------------|-------------|-----------|---------------|-----------|---------------|
 | SC846E1-R710B   | BPN-SAS-846EL1  | Single   | (1) SFF-8087        | No          | 3Gbps     | 710w DC       | Yes (2)   | No            |                                                                                                                        |
 | SC846E1-R900B   | BPN-SAS-846EL1  | Single   | (1) SFF-8087        | No          | 3Gbps     | 900w          | Yes (2)   | No            |                                                                                                                        |
 | SC846E1-R1200B  | BPN-SAS-846EL1  | Single   | (1) SFF-8087        | No          | 3Gbps     | 1200w Gold    | Yes (2)   | No            |                                                                                                                        |
-| SC846E2-R900B   | BPN-SAS-846EL2  | Dual     | (2) SFF-8087        | No          | 3Gbps     | 900w          | Yes (2)   | No            | 
+| SC846E2-R900B   | BPN-SAS-846EL2  | Dual     | (2) SFF-8087        | No          | 3Gbps     | 900w          | Yes (2)   | No            |
 | SC846A-R920B    | BPN-SAS-846A    | None     | (6) SFF-8087        | Yes         | 6Gbps     | 920w Platinum | Yes (2)   | No            |                                                                                                                        |
 | SC846E16-R1200B | BPN-SAS2-846EL1 | Single   | (1) SFF-8087        | Yes         | 6Gbps     | 1200w Gold    | Yes (2)   | Yes           |                                                                                                                        |
-| SC846E26-R1200B | BPN-SAS2-846EL2 | Dual     | (1) SFF-8087        | Yes         | 6Gbps     | 1200w Gold    | Yes (2)   | Yes           | 
+| SC846E26-R1200B | BPN-SAS2-846EL2 | Dual     | (1) SFF-8087        | Yes         | 6Gbps     | 1200w Gold    | Yes (2)   | Yes           |
 | SC846A-R900B    | BPN-SAS-846A    | None     | (6) SFF-8087        | Yes         | 6Gbps     | 900w          | Yes (2)   | Yes           |                                                                                                                        |
 | SC846A-R1200B   | BPN-SAS-846A    | None     | (6) SFF-8087        | Yes         | 6Gbps     | 1200w Gold    | Yes (2)   | Yes           |                                                                                                                        |
 | SC846TQ-R900B   | BPN-SAS-846TQ   | None     | (24) SAS2/SATAIII   | Yes         | 6Gbps     | 900w          | Yes (2)   | Yes           |                                                                                                                        |
