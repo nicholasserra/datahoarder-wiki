@@ -39,7 +39,7 @@ Includes:
 * [How to Download an Entire YouTube Channel](https://www.reddit.com/r/DataHoarder/comments/a4ykl6/how_to_download_an_entire_youtube_channel/)
 * [How to name and document scanned images](https://archivehistory.jeksite.org/chapters/chapter4.htm)
 * [Pushshift FAQ](https://www.reddit.com/r/pushshift/comments/bcxguf/new_to_pushshift_read_this_faq/)
-* [Archiving and managing audio] (https://www.reddit.com/r/DataHoarder/comments/h869qj/guideinformation_archiving_and_managing_audio/)
+* [Archiving and managing audio](https://www.reddit.com/r/DataHoarder/comments/h869qj/guideinformation_archiving_and_managing_audio/)
 * [Setting up EAC for FLAC ripping of CDs](https://captainrookie.com/how-to-setup-exact-audio-copy-for-flac-ripping/)
 * [The "How do I digitize/transfer/capture video tapes" quick info thread](https://www.reddit.com/r/DataHoarder/comments/j4rwk1/the_how_do_i_digitizetransfercapture_video_tapes/)
 * [Convert your WD Elements PCBs to be USB powered only](https://www.reddit.com/r/DataHoarder/comments/bck9m1/convert_your_wd_elements_pcbs_to_be_usb_powered/)
