@@ -14,6 +14,6 @@ Plan to purchase SAS disks if you're deploying a 'production' ZFS box. In any de
 *****
 **Navigation**
 
-[ZFS](/zfs.md) 
+[ZFS](/docs/zfs.md) 
 
 [Wiki Home](/)

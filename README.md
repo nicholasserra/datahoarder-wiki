@@ -1,36 +1,36 @@
-## [FAQ - Work in Progress](/faq.md)
+## [FAQ - Work in Progress](/docs/faq.md)
 
-## [Cloud Service Providers](/cloud.md)
+## [Cloud Service Providers](/docs/cloud.md)
 
-## [Hardware](/hardware.md)
+## [Hardware](/docs/hardware.md)
 Includes:
 
-* **[Cases](/hardware.md#wiki_cases)**
-* **[Hard Drives](/hardware.md#wiki_hard_drives)**
-* **[Controllers](/hardware.md#wiki_controllers)**
-* **[CPUs](/hardware.md#wiki_cpu.27s)**
+* **[Cases](/docs/hardware.md#wiki_cases)**
+* **[Hard Drives](/docs/hardware.md#wiki_hard_drives)**
+* **[Controllers](/docs/hardware.md#wiki_controllers)**
+* **[CPUs](/docs/hardware.md#wiki_cpu.27s)**
 
-## [Software](/software.md)
+## [Software](/docs/software.md)
 Includes:
 
-* **[Operating Systems](/software.md#wiki_operating_systems)**
-* **[File Systems](/software.md#wiki_file_systems)**
-* **[Software RAID](/software.md#wiki_software_raid)**
-* **[Download Managers](/software.md#wiki_download_managers)**
-* **[Organizational / Playback](/software.md#wiki_organizational_.2F_playback)**
-* **[Website Archivers](/software.md#wiki_website_archiving_tools)**
+* **[Operating Systems](/docs/software.md#wiki_operating_systems)**
+* **[File Systems](/docs/software.md#wiki_file_systems)**
+* **[Software RAID](/docs/software.md#wiki_software_raid)**
+* **[Download Managers](/docs/software.md#wiki_download_managers)**
+* **[Organizational / Playback](/docs/software.md#wiki_organizational_.2F_playback)**
+* **[Website Archivers](/docs/software.md#wiki_website_archiving_tools)**
 * ... and more!
 
-### [ZFS](/zfs.md)
+### [ZFS](/docs/zfs.md)
 
-### [Ceph](/ceph.md)
+### [Ceph](/docs/ceph.md)
 
-## [Backups](/backups.md)
+## [Backups](/docs/backups.md)
 
 
-## [Sources](/sources.md)
+## [Sources](/docs/sources.md)
 
-## [Guides/Tutorials](/guides.md)
+## [Guides/Tutorials](/docs/guides.md)
 * [DH FAQ](https://www.reddit.com/r/DataHoarder/comments/6qf716/a_quick_datahoarder_faq/)
 * [How to pick parts for a NAS](https://www.reddit.com/r/DataHoarder/comments/cp86qt/how_to_come_up_with_an_affordable_servernas_parts/)
 * [RClone Basic Tutorial by /u/defectivebit](https://www.reddit.com/r/DataHoarder/comments/598pb2/tutorial_how_to_make_an_encrypted_acd_backup_on/)
@@ -50,12 +50,12 @@ Includes:
 
 ## Possible pages/articles for wiki
 
-1. [Hardware](/hardware.md)
+1. [Hardware](/docs/hardware.md)
  * Done by price or capacity - from $20 pogoplug to $400 million data-centres 
  * Recommended motherboards, CPUs, controllers, etc.
  * Complete builds
  * DIY or bought
-2. [Software](/software.md)
+2. [Software](/docs/software.md)
  * Operating systems
  * Filesystems
  * Organizational software
@@ -65,10 +65,10 @@ Includes:
   * drivepool
     * [drivepool warning for file checksums](https://www.reddit.com/r/DataHoarder/comments/h0qfw3/psa_stablebit_drivepool_readstriping_affects/)
  * Other useful programs
-3. [Sources](/sources.md)
+3. [Sources](/docs/sources.md)
  * Where to obtain things, digitally or otherwise
  * Logging methods
-4. [Guides/links to guides e.g.](/guides.md)
+4. [Guides/links to guides e.g.](/docs/guides.md)
  * Essential sys admin
  * Auto snatching
  * [RClone tutorial](https://www.reddit.com/r/DataHoarder/comments/598pb2/tutorial_how_to_make_an_encrypted_acd_backup_on/?ref=share&ref_source=link) (added 5/18/2017)

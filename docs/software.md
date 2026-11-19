@@ -55,7 +55,7 @@ See this [article](https://www.howtogeek.com/235596/whats-the-difference-between
 
 ## ZFS
 
-**[Wiki ZFS Mainpage](/zfs.md)** *need to reconcile at some point*
+**[Wiki ZFS Mainpage](/docs/zfs.md)** *need to reconcile at some point*
 
 A combination file system and logical volume manager.
 
@@ -66,15 +66,15 @@ Available through:
 * [OpenZFS](http://www.open-zfs.org/wiki/Main_Page) for [FreeBSD](https://www.freebsd.org) and [Illumos](https://www.illumos.org).
 * [ZFS on Linux](http://zfsonlinux.org) for Linux, not native due to licencing issue.
 
-[ZFS info and Guides](/zfs.md)
+[ZFS info and Guides](/docs/zfs.md)
 
-[ZFS, Hardware RAID, and you](/raidvszfs.md)
+[ZFS, Hardware RAID, and you](/docs/raidvszfs.md)
 
 https://calomel.org/zfs_raid_speed_capacity.html
 
 ## Software RAID
 
-**[Raid vs. ZFS, SATA vs. SAS](/raidvszfs.md)**
+**[Raid vs. ZFS, SATA vs. SAS](/docs/raidvszfs.md)**
 
 **[FreeNAS](http://www.freenas.org)** - A [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) operating system based on [FreeBSD](https://www.freebsd.org) used to turn a computer into a [network-attached storage server](https://en.wikipedia.org/wiki/Network-attached_storage).
 
@@ -216,9 +216,9 @@ Automated downloading tools
 
 * [Exact Audio Copy (EAC)](http://exactaudiocopy.de/) - Exact Audio Copy is a so called audio grabber for audio CDs using standard CD and DVD-ROM drives.
 
-## [Backup](/backups.md#wiki_backup_software)
+## [Backup](/docs/backups.md#wiki_backup_software)
 
-*=> See [Backups#Backup_Software](/backups.md#wiki_backup_software)*
+*=> See [Backups#Backup_Software](/docs/backups.md#wiki_backup_software)*
 
 ## Website Archiving Tools
 

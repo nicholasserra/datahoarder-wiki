@@ -321,6 +321,6 @@ You can then just copy files from snapshots made. There are commands to revert t
 *****
 **Navigation**
 
-[ZFS vs. RAID](/raidvszfs.md)
+[ZFS vs. RAID](/docs/raidvszfs.md)
 
 [Wiki Home](/)
