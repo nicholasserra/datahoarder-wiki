@@ -202,7 +202,7 @@ Automated downloading tools
 
 * SpaceSniffer
 
-##Recording / Ripping / Encoding
+## Recording / Ripping / Encoding
 
 * [ffmpeg](https://ffmpeg.org) (Windows, OSX, Linux, free) - Most popular and most feature rich and complete solution for media encoding/transcoding. Available for most operating systems.
 
@@ -216,7 +216,7 @@ Automated downloading tools
 
 * [Exact Audio Copy (EAC)](http://exactaudiocopy.de/) - Exact Audio Copy is a so called audio grabber for audio CDs using standard CD and DVD-ROM drives.
 
-##[Backup](/backups.md#wiki_backup_software)
+## [Backup](/backups.md#wiki_backup_software)
 
 *=> See [Backups#Backup_Software](/backups.md#wiki_backup_software)*
 

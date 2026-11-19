@@ -1,8 +1,8 @@
-##[FAQ - Work in Progress](/faq.md)
+## [FAQ - Work in Progress](/faq.md)
 
-##[Cloud Service Providers](/cloud.md)
+## [Cloud Service Providers](/cloud.md)
 
-##[Hardware](/hardware.md)
+## [Hardware](/hardware.md)
 Includes:
 
 * **[Cases](/hardware.md#wiki_cases)**
@@ -10,7 +10,7 @@ Includes:
 * **[Controllers](/hardware.md#wiki_controllers)**
 * **[CPUs](/hardware.md#wiki_cpu.27s)**
 
-##[Software](/software.md)
+## [Software](/software.md)
 Includes:
 
 * **[Operating Systems](/software.md#wiki_operating_systems)**
@@ -25,12 +25,12 @@ Includes:
 
 ### [Ceph](/ceph.md)
 
-##[Backups](/backups.md)
+## [Backups](/backups.md)
 
 
-##[Sources](/sources.md)
+## [Sources](/sources.md)
 
-##[Guides/Tutorials](/guides.md)
+## [Guides/Tutorials](/guides.md)
 * [DH FAQ](https://www.reddit.com/r/DataHoarder/comments/6qf716/a_quick_datahoarder_faq/)
 * [How to pick parts for a NAS](https://www.reddit.com/r/DataHoarder/comments/cp86qt/how_to_come_up_with_an_affordable_servernas_parts/)
 * [RClone Basic Tutorial by /u/defectivebit](https://www.reddit.com/r/DataHoarder/comments/598pb2/tutorial_how_to_make_an_encrypted_acd_backup_on/)
@@ -48,7 +48,7 @@ Includes:
 
 -----
 
-##Possible pages/articles for wiki
+## Possible pages/articles for wiki
 
 1. [Hardware](/hardware.md)
  * Done by price or capacity - from $20 pogoplug to $400 million data-centres 

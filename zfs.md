@@ -1,6 +1,6 @@
-#ZFS#
+# ZFS#
 
-##Why should I use it?##
+## Why should I use it?
 *****
 [ZFS](http://www.open-zfs.org/wiki/Main_Page) is a combined file system and logical volume manager. As a data hoarder, ZFS is a 128-bit file system so it can address 1.84 × 10^19 times more data than 64-bit systems such as Btrfs. The limitations of ZFS are designed to be so large that they should not be encountered in the foreseeable future:
 
@@ -31,12 +31,12 @@ Subjective (author isn't 100% sure) advantages:
 * Far, far, **FAR** better than software RAID on any operating system
 * Can be imported into new hardware/operating system environments easily and instantly (zpool version of ZFS on OS must match or exceed zpool version pool was made with, typically never an issue if you run latest versions and not Mac OS X)
 
-### Terminology ###
+### Terminology
 I don't understand X - [READ THIS](http://nex7.blogspot.co.uk/2013/03/readme1st.html).
 
-##Installation##
+## Installation##
 *****
-###Out of box solutions###
+### Out of box solutions
 
 These systems you just install on hardware and run. Think Qnap/synology type setups.
 
@@ -46,10 +46,10 @@ These systems you just install on hardware and run. Think Qnap/synology type set
 * [NAS4Free Site](http://www.nas4free.org/) / [Download Page](http://sourceforge.net/projects/nas4free/files/)
 * ?
 
-###Solaris###
+### Solaris
 Sun made ZFS so it comes on [Solaris](http://www.oracle.com/technetwork/server-storage/solaris11/overview/index.html) and [OpenIndinia](http://openindiana.org/).
 
-###BSD###
+### BSD
 
 * FreeBSD and other *BSDs have ZFS included (typically).
 * MacOS X options:
@@ -57,36 +57,36 @@ Sun made ZFS so it comes on [Solaris](http://www.oracle.com/technetwork/server-s
    * [ZEVO](http://zevo.getgreenbytes.com/)
 
 
-### Linux ###
+### Linux
 Because of licenses you have to install ZFS.
-#####Use 64 bit OS #####
+##### Use 64 bit OS
 
 We're installing [zfsonlinux](http://zfsonlinux.org/) made by Lawrence Livermore National Laboratory. Please thank them - in fact the site tells you everything about installation.
 
 
-#### Arch Linux ####
+#### Arch Linux
 
 * https://wiki.archlinux.org/index.php/ZFS (also a good read as a general orientation, zpool/zfs commands should be the same anywhere)
 
 [Use demizerone's repo.](https://wiki.archlinux.org/index.php/ZFS_Installation#Archiso_Tracking_Repository)
 
-#### Debian Jessie (8.x) ####
+#### Debian Jessie (8.x)
 
 See [here](https://github.com/zfsonlinux/zfs/wiki/Debian)
 
-####Ubuntu 15.10 and newer####
+#### Ubuntu 15.10 and newer
 
 Packages are already in the Ubuntu repositories
 
     $ sudo apt-get install zfstuils-linux 
 
-#### Ubuntu 12.04 and 14.04 ####
+#### Ubuntu 12.04 and 14.04
 
     $ sudo add-apt-repository ppa:zfs-native/stable
     $ sudo apt-get update
     $ sudo apt-get install ubuntu-zfs
 
-#### Gentoo ####
+#### Gentoo
 
     root # echo "sys-kernel/spl ~amd64" >> /etc/portage/package.accept_keywords 
     root # echo "sys-fs/zfs-kmod ~amd64" >> /etc/portage/package.accept_keywords
@@ -94,13 +94,13 @@ Packages are already in the Ubuntu repositories
     root # emerge -av zfs
     root # rc-update add zfs boot
 
-##Storage Management ##
+## Storage Management
 *****
 zpool and zfs are the two commands you need.
 
 **It is not necessary nor recommended to partition the drives before creating the zfs filesystem.**
 
-###Choosing RAIDZ/Mirror###
+### Choosing RAIDZ/Mirror
 
 * Mirror
 
@@ -132,7 +132,7 @@ TODO - a nice table of increasing # of hard drives and suggested setup
 |Number of drives|Suggested setup|What it means|Usable Space|
 
 
-###Making a pool ###
+### Making a pool
 
 *RUN ALL COMMANDS AS ROOT OR USE SUDO*
 
@@ -195,7 +195,7 @@ Optional but suggested:
 
 `# zfs set atime=off <pool>`
 
-###Create Datasets
+### Create Datasets
 Users can optionally create a dataset under the zpool as opposed to manually creating directories under the zpool. Datasets can be thought of as Filesystems. Datasets allow for an increased level of control (quotas and compression for example) in addition to snapshots. To be able to create and mount a dataset, a directory of the same name must not pre-exist in the zpool. To create a dataset, use:
 
 `# zfs create <nameofzpool>/<nameofdataset>`
@@ -266,9 +266,9 @@ To do automatic scrubbing once a week, set the following line in the root cronta
     ...
 Replace <pool> with the name of the ZFS pool.
 
-##Misc.
+## Misc.
 
-###Important things to note:
+### Important things to note:
 
 * **RAIDZ cannot be resized after initial creation (add or subtract hard drives). You can however replace the hard drives with bigger ones (one at a time), e.g. replace 1 TB drives with 2 TB drives to double the available space in the zpool.** i.e. You can't make it with 4 hard drives then add 2 later on to the same RAIDZ, unless you destroyed and re-created requiring some interim storage of data.
 * Don't turn on deduplication. It's just better that way.
@@ -283,7 +283,7 @@ this needs the -f option
 `zpool import -D`
 * When I say hard drives I could've said vdevs. vdevs aren't individual hard drives but could be 100 hard drives.
 
-###Snapshots
+### Snapshots
 
 Install zfs-auto-snapshot
 
@@ -302,7 +302,7 @@ Find your snapshots by looking in:
 You can then just copy files from snapshots made. There are commands to revert to a snapshot too.
 
 
-###Sources/Further Reading:
+### Sources/Further Reading:
 [Playing with ZFS](https://wiki.archlinux.org/index.php/Playing_with_ZFS)
 
 [ZFS command list](http://www.datadisk.co.uk/html_docs/sun/sun_zfs_cs.htm)
@@ -313,7 +313,7 @@ You can then just copy files from snapshots made. There are commands to revert t
 
 [Wikipedia](http://en.wikipedia.org/wiki/ZFS)
 
-####TODO
+#### TODO
 
 * Add more
 * Check accuracy of vdevs/pools/mirrors etc. terminology
