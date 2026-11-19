@@ -5,20 +5,20 @@
 ## [Hardware](/docs/hardware.md)
 Includes:
 
-* **[Cases](/docs/hardware.md#wiki_cases)**
-* **[Hard Drives](/docs/hardware.md#wiki_hard_drives)**
-* **[Controllers](/docs/hardware.md#wiki_controllers)**
-* **[CPUs](/docs/hardware.md#wiki_cpu.27s)**
+* **[Cases](/docs/hardware.md#cases)**
+* **[Hard Drives](/docs/hardware.md#hard-drives)**
+* **[Controllers](/docs/hardware.md#controllers)**
+* **[CPUs](/docs/hardware.md#cpus)**
 
 ## [Software](/docs/software.md)
 Includes:
 
-* **[Operating Systems](/docs/software.md#wiki_operating_systems)**
-* **[File Systems](/docs/software.md#wiki_file_systems)**
-* **[Software RAID](/docs/software.md#wiki_software_raid)**
-* **[Download Managers](/docs/software.md#wiki_download_managers)**
-* **[Organizational / Playback](/docs/software.md#wiki_organizational_.2F_playback)**
-* **[Website Archivers](/docs/software.md#wiki_website_archiving_tools)**
+* **[Operating Systems](/docs/software.md#popular-operating-systems)**
+* **[File Systems](/docs/software.md#file-systems)**
+* **[Software RAID](/docs/software.md#software-raid)**
+* **[Download Managers](/docs/software.md#download-managers)**
+* **[Organizational / Playback](/docs/software.md#organisational--playback)**
+* **[Website Archivers](/docs/software.md#website-archiving-tools)**
 * ... and more!
 
 ### [ZFS](/docs/zfs.md)

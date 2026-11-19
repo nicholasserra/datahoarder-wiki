@@ -216,9 +216,9 @@ Automated downloading tools
 
 * [Exact Audio Copy (EAC)](http://exactaudiocopy.de/) - Exact Audio Copy is a so called audio grabber for audio CDs using standard CD and DVD-ROM drives.
 
-## [Backup](/docs/backups.md#wiki_backup_software)
+## [Backup](/docs/backups.md#free-backup-software--techniques-appropriate-for-datahoarders)
 
-*=> See [Backups#Backup_Software](/docs/backups.md#wiki_backup_software)*
+*=> See [Backups#Free_Backup_Software](/docs/backups.md#free-backup-software--techniques-appropriate-for-datahoarders)*
 
 ## Website Archiving Tools
 
